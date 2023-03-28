@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="css/style.scss">
+
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> SCRIPTOGEN </a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <!-- account form section starts  -->
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+
+        <form class="login-form active" action="">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+                <a href="#">forgot password ?</a>
+            </div>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>Register Now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <input type="password" placeholder="confirm your password" class="box">
+            <input type="submit" value="register now" class="btn">
+        </form>
+
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide" style="background: url(images/front.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Research and Development society</h3>
+                        <p></p>
+                        <a href="#" class="btn">Get started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the best courses you will find find here!</h3>
+                        <p>Research and development society</p>
+                        <a href="login-form active" class="btn">get started</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the best courses you will find find here!</h3>
+                        <p>Research and development society</p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- subjects section starts  -->
+
+    <section class="subjects">
+
+        <h1 class="heading">What we do?</h1>
+
+        <div class="box-container">
+
+            <!-- <div class="box">
+                <img src="images/chapter.png" alt="">
+                <h3>Chapters</h3>
+                <p>We make chapters that challenges everyone like the Robotics Automation Society.</p>
+            </div> -->
+
+            <div class="box">
+                <img src="images/events1.png" alt="">
+                <h3>Events</h3>
+                <p>Recently we complete our first event successfully of 12 research paper in 10 days</p>
+            </div>
+
+            <div class="box">
+                <img src="images/project.png" alt="">
+                <h3>Projects</h3>
+                <p>We work on projects that aim on fixing a problem that we find in the community.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-4.png" alt="">
+                <h3>Research&Development</h3>
+                <p>Our society is working on many devlopment projects that will help the mankind</p>
+            </div>
+
+            <div class="box">
+                <img src="images/workshop.png" alt="">
+                <h3>Workshops</h3>
+                <p>we are providing workshops related to CSE field that help students to learn new things</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- subjects section ends -->
+
+    <!-- home courses slider section starts  -->
+
+    <!-- <section class="home-courses">
+
+        <h1 class="heading"> EXECUTIVE BOARD </h1>
+
+        <div class="swiper home-courses-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/kunal.jpeg" alt="">
+                        <h3>Chairman</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Chairman</h3>
+                        <p>kunal single department of computer science student and society founder, the international award winner in research feild</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/kunal.jpeg" alt="">
+                        <h3>Vice Chair</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Vice Chair</h3>
+                        <p>Apoorava department of computer science she is speaker she have a experence how the societys works</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/course-1-3.png" alt="">
+                        <h3>Secretary</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Secretary</h3>
+                        <p>Chahil choudhary department of computer science co-founder of society and have the knowladge regarding R&D</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/course-1-4.png" alt="">
+                        <h3>web development</h3>
+                    </div>
+                    <div class="content">
+                        <h3>web development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/course-1-5.png" alt="">
+                        <h3>web development</h3>
+                    </div>
+                    <div class="content">
+                        <h3>web development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/course-1-6.png" alt="">
+                        <h3>web development</h3>
+                    </div>
+                    <div class="content">
+                        <h3>web development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    home courses slider section ends -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> <i class="fa-thin fa-book-open-reader"></i> SCRIPTOGEN </h3>
+                <p>Research and Development society</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="https://instagram.com/scriptogen__society?igshid=ZDdkNTZiNTM=" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/scriptogen-society/about/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">Home</a>
+                <a href="about.html" class="link">About</a>
+                <a href="events.html" class="link">Events</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">Help center</a>
+                <a href="#" class="link">Ask questions</a>
+                <a href="contact.html" class="link">Send feedback</a>
+                <a href="#" class="link">Private policy</a>
+                <a href="#" class="link">Terms of use</a>
+            </div>
+
+        </div>
+        <div class="credit"> Designed by <span>Scriptoge Tech Team</span></div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
